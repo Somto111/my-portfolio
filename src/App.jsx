@@ -133,8 +133,8 @@ function App() {
           {/* Stats */}
           <div className='flex gap-0 mt-14 pt-7 border-t border-red-900/20'>
             {[
-              { num: '3K+', label: 'Girls Reached' },
-              { num: '12+', label: 'School Talks' },
+              { num: '1K+', label: 'Girls Reached' },
+              { num: '3+', label: 'School Talks' },
               { num: '1', label: 'Kit. Many Lives.' },
             ].map(({ num, label }, i) => (
               <div key={i} className={`pr-9 mr-9 ${i < 2 ? 'border-r border-red-900/20' : ''}`}>
@@ -146,9 +146,9 @@ function App() {
         </div>
 
         {/* Right — Portrait */}
-        <div className='flex items-center justify-center relative  md:bottom-25 mb-25 mt-10 md:mb-0'>
-          <div className='absolute w-120 h-120 md:w-130 md:h-130 rounded-full border border-dashed border-red-900/15'></div>
-          <div className='absolute w-110 h-110 md:w-120 md:h-120 rounded-full bg-[#241414] border border-red-900/20'></div>
+        <div className='flex items-center justify-center relative right-15 md:right-0  md:bottom-25 mb-25 mt-10 md:mb-0'>
+          <div className='absolute w-100 h-120 md:w-130 md:h-130 rounded-full border border-dashed border-red-900/15'></div>
+          <div className='absolute w-90 h-110 md:w-120 md:h-120 rounded-full bg-[#241414] border border-red-900/20'></div>
           <div className='absolute  w-65 h-65 rounded-full bg-red-500/10 blur-[60px] right-10 top-10'></div>
           <div className='absolute w-30 h-30 rounded-full bg-red-500/10 blur-2xl left-5 bottom-15'></div>
           <img
