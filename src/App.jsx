@@ -63,7 +63,7 @@ function App() {
             Home
           </a>
 
-          <a href="#" className='hover:text-white transition-colors'>
+          <a href="#ABOUT" className='hover:text-white transition-colors'>
             About
           </a>
 
@@ -104,10 +104,10 @@ function App() {
           {/* Social Icons */}
           <div className='flex gap-3 mb-8'>
             {[
-              { href: '#', label: 'LinkedIn', icon: <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg> },
-              { href: '#', label: 'Instagram', icon: <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4" className="fill-[#1a0e0e]"/><circle cx="17.5" cy="6.5" r="1" className="fill-[#1a0e0e]"/></svg> },
+              { href: 'https://www.linkedin.com/in/paschaleen-nwachukwu ', label: 'LinkedIn', icon: <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg> },
+              { href: 'https://www.instagram.com/paschaleennwachukwu?utm_source=ig_web_button_share_sheet&igsh=M2M0Y2JmOTAyOA==', label: 'Instagram', icon: <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4" className="fill-[#1a0e0e]"/><circle cx="17.5" cy="6.5" r="1" className="fill-[#1a0e0e]"/></svg> },
               { href: '#', label: 'Facebook', icon: <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg> },
-              { href: '#', label: 'YouTube', icon: <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.95C18.88 4 12 4 12 4s-6.88 0-8.59.47a2.78 2.78 0 0 0-1.95 1.95A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.41 19.5C5.12 20 12 20 12 20s6.88 0 8.59-.47a2.78 2.78 0 0 0 1.95-1.95A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="#0f0a0a"/></svg> },
+              { href: 'https://www.youtube.com/results?search_query=paschaleen+nwachukwu', label: 'YouTube', icon: <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.95C18.88 4 12 4 12 4s-6.88 0-8.59.47a2.78 2.78 0 0 0-1.95 1.95A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.41 19.5C5.12 20 12 20 12 20s6.88 0 8.59-.47a2.78 2.78 0 0 0 1.95-1.95A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="#0f0a0a"/></svg> },
             ].map(({ href, label, icon }) => (
               <a key={label} href={href} aria-label={label}
                 className='w-9 h-9 rounded-full border border-red-900/40 flex items-center justify-center text-[#b08080] hover:text-red-500 hover:border-red-500/60 hover:bg-red-500/10 transition-all'>
@@ -122,7 +122,7 @@ function App() {
           </p>
 
           <div className='flex gap-4 items-center'>
-            <button className='bg-red-500 hover:bg-red-400 text-white text-sm font-medium tracking-wide px-8 py-3.5 rounded-full transition-colors'>
+            <button className='bg-red-500 hover:bg-red-400 text-white text-sm font-medium tracking-wide px-8 py-3.5 rounded-full transition-colors mt-3'>
               Pre-order Kit
             </button>
             <button className='border border-white/20 hover:border-white/40 text-[#ffe0e0] text-sm font-light tracking-wide px-8 py-3.5 rounded-full transition-colors'>
@@ -146,15 +146,15 @@ function App() {
         </div>
 
         {/* Right — Portrait */}
-        <div className='flex items-center justify-center relative md:bottom-25 mb-20 md:mb-0'>
-          <div className='absolute w-115 h-115 rounded-full border border-dashed border-red-900/15'></div>
-          <div className='absolute w-105 h-105 rounded-full bg-[#241414] border border-red-900/20'></div>
-          <div className='absolute w-55 h-55 rounded-full bg-red-500/10 blur-[60px] right-[-40px] top-[40px]'></div>
+        <div className='flex items-center justify-center relative  md:bottom-25 mb-25 mt-10 md:mb-0'>
+          <div className='absolute w-120 h-120 md:w-130 md:h-130 rounded-full border border-dashed border-red-900/15'></div>
+          <div className='absolute w-110 h-110 md:w-120 md:h-120 rounded-full bg-[#241414] border border-red-900/20'></div>
+          <div className='absolute  w-65 h-65 rounded-full bg-red-500/10 blur-[60px] right-10 top-10'></div>
           <div className='absolute w-30 h-30 rounded-full bg-red-500/10 blur-2xl left-5 bottom-15'></div>
           <img
             src={`${import.meta.env.BASE_URL}images/Paschaleen.jpeg`}
             alt="Paschaleen"
-            className='relative z-10 w-70 h-100 object-cover object-top  rounded-[140px_140px_50%_50%] border border-red-900/20'
+            className='relative z-10 w-70 h-105 md:w-80 md:h-110 object-cover object-top  rounded-[140px_140px_50%_50%] border border-red-900/20'
           />
         </div>
       </main>
@@ -174,6 +174,44 @@ function App() {
         ))}
       </section>
 
+      {/* ── About Me ── */}
+      <section id="ABOUT" className='border-t border-red-900/20  Z-10 bottom-0 '>
+        <h1 className="font-serif font-black text-red-400 text-center text-4xl mb-2 mt-5">About me</h1>
+        <p className="text-sm mb-4 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+
+        <div className='grid md:grid-cols-2 md:min-h-dvh relative z-10 md-gap-0'>
+          <div className='hidden md:flex items-end justify-center relative right-0.5 lg:right-10 md:h-full mt-10 md:mt-0'>
+              <div className='absolute w-120 h-120 md:w-120 md:h-150 rounded-b-none rounded-t-full border border-dashed border-red-900/15'></div>
+              <div className='absolute w-110 h-110 md:w-110 md:h-140 rounded-b-none rounded-t-full bg-[#241414] border  border-red-900/20'></div>
+              <div className='absolute  w-65 h-65 rounded-full bg-red-500/10 blur-[60px] right-10 top-10'></div>
+              <div className='absolute w-30 h-30 rounded-full bg-red-500/10 blur-2xl left-5 bottom-15'></div>
+              <img
+                src={`${import.meta.env.BASE_URL}images/paa.JPG`}
+                alt="Paschaleen"
+                className='relative z-10 w-70 h-105 md:w-80 md:h-120 object-cover object-top rounded-b-none rounded-t-full border border-red-900/20'
+              />
+          </div>
+
+
+          <div className='flex p-4 '>
+            <p className="max-w-xl text-[20px] md:text-[18px] md:p-5 font-light text-[#b08080] leading-relaxed text-left">
+              Paschaleen is a passionate advocate for menstrual health and education. With years of experience in community outreach, she has dedicated her life to ensuring that every girl has access to the resources and knowledge they need to manage their periods with confidence and dignity.
+              She is a graduate of Nnamdi Azikiwe University where she studied Medical laboratory science. Her journey into menstrual health advocacy began when she noticed the lack of resources and the knowledge gap surrounding menstruation in yournger girls and some adults.
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error consequuntur laborum facilis blanditiis vel qui nulla impedit dignissimos. Porro, officia. Possimus voluptas consequatur quibusdam quisquam placeat eos accusamus beatae et?
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error consequuntur laborum facilis blanditiis vel qui nulla impedit dignissimos. Porro, officia. Possimus voluptas consequatur quibusdam quisquam placeat eos accusamus beatae et?
+            </p>
+          </div>
+
+        
+        </div>
+      </section>
+      
+      {/*-- Outreach Section --*/}  
+      <section className='relative z-10 px-12 py-16 border-t border-red-900/20'>
+        <h1>Outreach</h1>
+      </section>
+
       {/* ── Product Section ── */}
       <section className='relative z-10 px-12 py-16 border-t border-red-900/20'>
         <p className='text-red-500 text-xs tracking-[0.2em] uppercase mb-3'>The Product</p>
@@ -183,7 +221,7 @@ function App() {
           Designed for school bags, handbags, lockers, travel bags, and office drawers.
         </p>
 
-        <div className='bg-[#1a0e0e] border border-red-900/25 rounded-2xl p-8 max-w-2xl'>
+        <div className='bg-[#1a0e0e] border border-red-900/25 rounded-2xl p-8 w-2xl'>
           <p className='text-xs tracking-[0.15em] uppercase text-[#b08080] mb-2'>Kit preview</p>
           <h3 className='font-serif font-bold text-[#ffe0e0] text-2xl mb-6'>Starter Emergency Pouch</h3>
           <div className='grid grid-cols-5 gap-3 mb-8'>
@@ -212,7 +250,7 @@ function App() {
           Tap each item to learn<br />why it belongs in the kit.
         </h2>
         <p className='text-sm font-light text-[#b08080] max-w-lg'>
-          This section shows how the final website can explain each item in a friendly, educational way.
+          This section shows how the final website can explain each item in a friendly
         </p>
       </section>
 
